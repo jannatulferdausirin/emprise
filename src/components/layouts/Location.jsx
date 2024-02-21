@@ -12,7 +12,7 @@ const Location = () => {
       
     
      <div className="w-[1328px] mx-auto -mt-24 mb-[100px]">
- <Flex className={`rounded-xl bg-white justify-around shadow-2xl `}>
+ <Flex className={`rounded-xl bg-white justify-evenly shadow-2xl `}>
         <div className="relative py-8  after:absolute after:h-[70px] after:w-[2px] after:bg-gray-300 after:bottom-12 after:right-0 after:z-20 px-8">
           <Heading
             as="h3"

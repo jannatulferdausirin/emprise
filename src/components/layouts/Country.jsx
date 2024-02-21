@@ -16,7 +16,7 @@ const CountriesApi = () => {
 
     return (
         <>
-         <div className='absolute bottom-[50px] right-12'>
+         <div className='absolute bottom-[50px] -left-14'>
          <select>
            {
             all.map(item =>

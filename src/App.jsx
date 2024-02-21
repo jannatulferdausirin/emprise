@@ -9,6 +9,9 @@ import Activities from "./components/layouts/Activities";
 import Special from "./components/layouts/Special";
 import SearchIcon from "./components/layouts/SearchIcon";
 import Destination from "./components/layouts/Destination";
+import WishList from "./components/layouts/WishList";
+import Login from "./components/layouts/Login";
+import SignUp from "./components/layouts/SignUp";
 
 
 
@@ -37,8 +40,20 @@ function App() {
         element:<Special/>,
       },
         {
+        path: "/wishList",
+        element:<WishList/>,
+      },
+        {
         path: "/search",
         element:<SearchIcon/>,
+      },
+        {
+        path: "/login",
+        element:<Login/>,
+      },
+        {
+        path: "/sign-up",
+        element:<SignUp/>,
       },
     ]
     },
