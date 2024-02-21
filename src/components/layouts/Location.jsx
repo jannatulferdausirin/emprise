@@ -63,7 +63,7 @@ const Location = () => {
               inputPlaceholder="Set Date"
               className={`underline `}
             />
-            <FaCalendarAlt className="text-[18px] text-black" />
+           <div> <FaCalendarAlt className="text-[18px] text-black" /></div>
           </Flex>
         </div>
      

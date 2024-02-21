@@ -19,15 +19,15 @@ const Adventure = () => {
             <Image src={Image3} className={`h-[296px] w-[376px] rounded`} />
           </div>
         </Flex>
-        <div>
+        <div >
             <Paragraph text="Subscribe For Offers" className={`text-[24px] font-normal leading-[36px] tracking-[-0.38px] text-[#28B0A6] pt-16`}/>
            
             <Heading as="h3" text="Adventures Calling 
-            You Guys!" className="text-[48px] font-semibold tracking-[-0.77px] py-4 w-[466px]"/>
+            You Guys!" className="text-[48px] font-semibold tracking-[-0.77px] py-4 w-[466px] "/>
             <Paragraph text="The Brilliant reasons Entrada should be
 your one-stop-shop!" className={`text-[24px] font-normal leading-[36px] tracking-[-0.12px] text-[#546179
 ] pb-8 w-[450px]`}/>
-          <InputField />
+         <div className="relative"> <InputField /></div>
           <Paragraph text="Expect a reply in 2-3 working days" className={`text-[16px] font-normal leading-[24px] tracking-[-0.38px] text-[#546179
 ] pt-12`}/>
         </div>
