@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 // import Container from '../Container';
+import Input from '../Input'
 
 const CountriesApi = () => {
     let [all ,setAll]= useState([]);
@@ -17,15 +18,15 @@ const CountriesApi = () => {
     return (
         <>
          <div className='absolute bottom-[50px] -left-14'>
-         <select>
+            
+        <select className='px-2 py-1 border rounded outline-none'>
            {
             all.map(item =>
-               <option key="item">{item.region}</option>
-            )
-                // eslint-disable-next-line react/jsx-key
-               
+                <option key="item"  >{item.region}</option>
+            )   
            }
-            </select>  
+        </select>
+       
          </div>
         </>
     );

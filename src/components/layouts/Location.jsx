@@ -11,9 +11,9 @@ const Location = () => {
     return (
       
     
-     <div className="w-[1328px] mx-auto -mt-24 mb-[100px]">
+     <div className="w-[1328px] mx-auto -mt-16 mb-[100px]">
  <Flex className={`rounded-xl bg-white justify-evenly shadow-2xl `}>
-        <div className="relative py-8  after:absolute after:h-[70px] after:w-[2px] after:bg-gray-300 after:bottom-12 after:right-0 after:z-20 px-8">
+        <div className="relative py-8  after:absolute after:h-[70px] after:w-[2px] after:bg-gray-300 after:bottom-12 after:-right-10 after:z-20 px-8">
           <Heading
             as="h3"
             text="Location"
@@ -21,16 +21,11 @@ const Location = () => {
           />
           <div className="h-[4px] w-[110px] bg-red-200 absolute top-16 shadow "></div>
           <Flex className={`items-center gap-2 py-4 text-gray-300`}>
-          <div>
-          <Input
-              type="text"
-              inputPlaceholder="Enter your destination"
-              className={`underline  `}
-            />
-             <Country/>
+          <div className="absolute bottom-0 left-20">
+          <Country/>
           </div>
-            <IoLocationOutline className="text-[18px] text-black" />
-           
+            <IoLocationOutline className="text-[18px] text-black absolute left-[160px] bottom-[60px]" />
+            
           </Flex>
         </div>
         <div className="relative py-8 after:absolute after:h-[70px] after:w-[2px] after:bg-gray-300 after:bottom-12 after:right-0 after:z-20 px-8">
@@ -47,10 +42,10 @@ const Location = () => {
               className={`underline `}
             />
           
-            <RiPlayCircleLine className="text-[18px] text-black" />
+            <RiPlayCircleLine className="text-[18px] text-black absolute right-20" />
           </Flex>
         </div>
-        <div className="relative py-8 after:absolute after:h-[70px] after:w-[2px] after:bg-gray-300 after:bottom-12 after:right-0 after:z-20 px-8">
+        <div className="relative py-8 after:absolute after:h-[70px] after:w-[2px] after:bg-gray-300 after:bottom-12 after:right-0 after:z-20 pr-8 ">
           <Heading
             as="h3"
             text="Date"
@@ -59,11 +54,9 @@ const Location = () => {
           <div className="h-[4px] w-[60px] bg-red-200 absolute top-16 shadow "></div>
           <Flex className={`items-center py-4 text-gray-300 `}>
             <Input
-              type="text"
-              inputPlaceholder="Set Date"
-              className={`underline `}
-            />
-           <div> <FaCalendarAlt className="text-[18px] text-black" /></div>
+              type="date"
+              className={`border-b`}></Input>
+            
           </Flex>
         </div>
      

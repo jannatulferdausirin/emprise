@@ -1,8 +1,11 @@
-
 import Heading from "../Heading";
 import Paragraph from "../Paragraph";
 import Flex from "../Flex";
 import { BsDashLg } from "react-icons/bs";
+
+import Image from "../Image";
+import bannerImage1 from "../../assets/banner.png";
+import Image1 from "../../assets/bannerfilm.png";
 import VeryCold from "./VeryCold";
 
 const Banner = () => {

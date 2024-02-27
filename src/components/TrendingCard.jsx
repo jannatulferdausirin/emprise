@@ -13,9 +13,11 @@ const TrendingCard = ({ TrendingImg, TrendingBadge, trendingHeading }) => {
   const dispatch = useDispatch()
   return (
     <div className="px-2 mr-6 mb-12 shadow-lg shadow-gray h-[460px]">
-     <div className="">
-     <Image src={TrendingImg} className={`relative rounded-xl`}/>
-      <Badge text={TrendingBadge} className={`absolute bottom-0 left-10`} />
+     <div className="relative">
+     <Image src={TrendingImg} className={` rounded-xl`}/>
+   
+     <Badge text={TrendingBadge} className={`absolute top-5 right-5 px-2 bg-red-200 rounded-2xl`} />
+    
      </div>
       <Flex className={`justify-between px-4`}>
         <div>

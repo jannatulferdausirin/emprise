@@ -45,7 +45,7 @@ return (
   
   
     <div>
-           <TrendingCard TrendingImg={TrendingCardImg1}  TrendingBadge="30%" trendingHeading="Mountain Hiking Tour"/>
+           <TrendingCard TrendingImg={TrendingCardImg1}   trendingHeading="Mountain Hiking Tour"/>
       
     </div>
    
@@ -54,13 +54,13 @@ return (
         </div>
   
     <div>
-           <TrendingCard TrendingImg={TrendingCardImg3}  TrendingBadge="30%" trendingHeading="Mountain Hiking Tour"/>
+           <TrendingCard TrendingImg={TrendingCardImg3}   trendingHeading="Mountain Hiking Tour"/>
         </div>
     <div>
            <TrendingCard TrendingImg={TrendingCardImg1}  TrendingBadge="30%" trendingHeading="Mountain Hiking Tour"/>
         </div>
     <div>
-           <TrendingCard TrendingImg={TrendingCardImg2}  TrendingBadge="30%" trendingHeading="Mountain Hiking Tour"/>
+           <TrendingCard TrendingImg={TrendingCardImg2}   trendingHeading="Mountain Hiking Tour"/>
         </div>
   </Slider>
 </div>
