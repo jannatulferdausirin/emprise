@@ -1,16 +1,17 @@
 import { useDispatch } from "react-redux";
+import { increment } from "./slices/counterSlice";
 import Flex from "./Flex";
 import Heading from "./Heading";
 import Image from "./Image";
 import Paragraph from "./Paragraph";
 import Badge from "./layouts/Badge";
 import { FaCheck, FaRegClock, FaRegHeart, FaStar } from "react-icons/fa";
-import { increment } from "./slices/counterSlice";
+
 
 const TrendingCard = ({ TrendingImg, TrendingBadge, trendingHeading }) => {
     
-  
   const dispatch = useDispatch()
+ 
   return (
     <div className="px-2 mr-6 mb-12 shadow-lg shadow-gray h-[460px]">
      <div className="relative">
@@ -26,7 +27,7 @@ const TrendingCard = ({ TrendingImg, TrendingBadge, trendingHeading }) => {
         </div>
         {/* heart====== */}
         <div className="pt-2 ">
-          <FaRegHeart className="text-[24px] hover:text-red-600 "  onClick={() => dispatch(increment())}/>
+          <FaRegHeart className="text-[24px] hover:text-red-600 "  onClick={() => dispatch (increment())}/>
          
         </div>
       </Flex>

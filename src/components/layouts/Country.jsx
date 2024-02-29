@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-// import Container from '../Container';
-import Input from '../Input'
+
 
 const CountriesApi = () => {
     let [all ,setAll]= useState([]);

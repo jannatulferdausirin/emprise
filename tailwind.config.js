@@ -8,9 +8,12 @@ export default {
     extend: {
       backgroundImage: {
         'bannerImg': "url('/src/assets//banner.png')",
-      }
+      },
+      colors: {
+        'buttonColor': ' ',
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

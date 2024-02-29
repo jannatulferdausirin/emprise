@@ -4,9 +4,9 @@ import List from "../List";
 import Button from "../Button";
 import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+
 const Navbar = () => {
-  const count = useSelector(state => state.jannat.value)
+ 
   return (
     <>
       <div className={`w-[1600px] mx-auto my-5 `}>
@@ -21,7 +21,7 @@ const Navbar = () => {
             <List to="/activities" text="Activities " />
             <List to="/special" text="Special" />{" "}
             <List to="/wishlist" text="WishList" />
-            <List to="/count" text={count} className={`bg-teal-500 px-4 rounded-2xl text-white `}/>
+           
            
             <List to="/search" text={<IoSearch />} />
           </Flex>
